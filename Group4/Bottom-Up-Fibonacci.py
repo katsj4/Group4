@@ -21,6 +21,7 @@ def get_user_input():
                 print("Please enter a non-negative integer!")
                 continue
             return n
+        
         except ValueError:
             print("Invalid input! Please enter a valid integer.")
 
